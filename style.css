@@ -1,0 +1,52 @@
+body{
+    font-family: normal 15pt Arial;
+    background-color: rgb(70, 142, 236);
+}
+
+header{
+    color: white;  
+    text-align: center; 
+    padding: 10px;
+
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
+}
+
+div{
+    padding: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#btn{
+    background-color: rgb(70, 142, 236);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(53, 107, 179);
+}
