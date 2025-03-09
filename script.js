@@ -36,13 +36,13 @@ function verificar(){
                 res.innerHTML = `Detectamos uma criança com ${idade} anos.`
             } else if (idade < 21){
                 // Jovem
-                res.innerHTML = `Detectamos um jovem com ${idade} anos.`
+                res.innerHTML = `Detectamos uma jovem com ${idade} anos.`
             } else if (idade < 50){
                 // Adulto
-                res.innerHTML = `Detectamos um adulto com ${idade} anos.`
+                res.innerHTML = `Detectamos uma adulta com ${idade} anos.`
             } else {
                 // Idoso
-                res.innerHTML = `Detectamos um idoso com ${idade} anos.`
+                res.innerHTML = `Detectamos uma idosa com ${idade} anos.`
             }
         }
 
